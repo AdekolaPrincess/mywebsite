@@ -1,0 +1,165 @@
+:root {
+  --primary-color--: rgb(94, 19, 19);
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  background-color: white;
+  padding: 0.7em;
+}
+.navbar .logo {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.navbar span {
+  color: var(--primary-color--);
+}
+.navbar .container {
+  display: flex;
+  place-content: space-between;
+}
+.navbar nav {
+  display: none;
+}
+.navbar .mobile {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.heading {
+  padding: 2em;
+  text-align: center;
+}
+.heading .top {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color: gray;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 0.5em;
+}
+.heading h1 {
+  margin: 0;
+  margin-bottom: 2em;
+  line-height: 1.3em;
+}
+.heading .sample {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--primary-color--);
+  padding: 0.6em 2em;
+  color: white;
+  border-radius: 5em;
+}
+
+.pic {
+  width: 70%;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  background-color: #0b0c0e;
+  margin-top: 4em;
+}
+.about h2 {
+  text-align: center;
+  padding: 0.3em;
+  color: white;
+  font-style: italic;
+}
+.about li {
+  color: white;
+  margin: 1em;
+  padding-bottom: 1em;
+  position: relative;
+  font-size: 1.1em;
+}
+.about li:before {
+  content: "";
+  left: -2em;
+  background-image: url(images/bullet.svg);
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  background-size: contain;
+}
+
+.testimonials {
+  background-color: var(--primary-color--);
+  padding: 2em;
+  color: white;
+}
+.testimonials li {
+  text-align: center;
+  background-color: rgb(119, 46, 46);
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  border-radius: 1em;
+  padding-bottom: 2em;
+}
+.testimonials img {
+  width: 100px;
+  height: 100px;
+  border: 5px solid rgb(119, 46, 46);
+  border-radius: 10em;
+  margin-top: -2em;
+}
+
+.order {
+  background-color: white;
+}
+.order h2 {
+  font-size: 2em;
+  margin-left: 20px;
+}
+.order label {
+  display: block;
+  margin-bottom: 0.6em;
+  font-size: 20px;
+  margin: 10px;
+}
+.order input {
+  height: 2em;
+}
+.order input, .order textarea {
+  width: 80%;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.order input[type=submit] {
+  background-color: var(--primary-color--);
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: none;
+  margin-bottom: 5em;
+  display: inline-block;
+  padding: 0.8em 2em 2em 2em;
+  border-radius: 5em;
+  width: unset;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}/*# sourceMappingURL=style.css.map */
